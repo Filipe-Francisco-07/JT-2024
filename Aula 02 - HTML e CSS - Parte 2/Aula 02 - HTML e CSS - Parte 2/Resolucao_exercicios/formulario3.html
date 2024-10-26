@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pizzaria</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .central{
+            text-align: center;
+            
+        }    
+        #sub{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        div{
+            position: relative;
+            width: 500px;
+            left: 34%;
+            padding: 5px;
+            border: solid black 2px;
+            background-color: rgb(222, 222, 227);
+        }
+        legend {
+            background-color: #000000;
+            color: #fff;
+            padding: 3px 6px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <h2 class="central">Pedido de pizza</h2>
+    <div>
+        <form action="post">
+            <fieldset>
+                <legend class="mb-3">Cliente</legend> 
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" id="nome" name="nome">
+                <br>
+                <label for="endereco">Endereço:</label>
+                <br>
+                <input type="text" id="endereco" name="endereco">
+                <br>
+                <label for="end_num">Número do endereço:</label>
+                <br>
+                <input type="number" id="end_num" name="end_num">
+                <br>
+                <label for="bairro">Bairro:</label>
+                <br>
+                <input type="text" id="bairro" name="bairro">
+                <br>
+                <label for="cidade">Cidade:</label>
+                <br>
+                <input type="text" id="cidade" name="cidade">
+                <br>
+                <label for="telefone">Telefone:</label>
+                <br>
+                <input type="text" id="telefone" name="telefone">
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email">
+                <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend class="mb-3">Pedido</legend> 
+                <h4>Tamanho</h4>
+                <label for="tamanho">Selecione o tamanho:</label>
+                <br>
+                <input type="radio" id="tamanho" name="tamanho" value="1"> 
+                <label for="tamanho">Gigante</label>
+                <br>
+                <input type="radio" id="tamanho2" name="tamanho" value="2"> 
+                <label for="tamanho2">Grande</label>
+                <br>
+                <input type="radio" id="tamanho3" name="tamanho" value="3"> 
+                <label for="tamanho3">Média</label>
+                <br>
+                <input type="radio" id="tamanho4" name="tamanho" value="4"> 
+                <label for="tamanho4">Pequena</label>
+                <br><br>
+                <h4>Sabor da pizza:</h4>        
+                <label for="">Selecione 4 sabores</label>  
+                <br>       
+                <label for="4queijos">4 queijos</label>
+                <input type="checkbox" id="4queijos" name="4queijos"> 
+                <br>
+                <label for="pepperoni">Pepperoni</label>
+                <input type="checkbox" id="pepperoni" name="pepperoni"> 
+                <br>
+                <label for="scarne">Strogonoff de carne</label>
+                <input type="checkbox" id="scarne" name="scarne"> 
+                <br>
+                <label for="mexicana">Mexicana</label>
+                <input type="checkbox" id="mexicana" name="mexicana"> 
+                <br>
+                <label for="calabresa">Calabresa</label>
+                <input type="checkbox" id="calabresa" name="calabresa"> 
+                <br>
+                <label for="cbranco">Chocolate branco</label>
+                <input type="checkbox" id="cbranco" name="cbranco"> 
+                <br>
+                <label for="cpreto">Chocolate preto</label>
+                <input type="checkbox" id="cpreto" name="cpreto"> 
+                <br><br>
+                <h4>Borda da pizza:</h4>        
+                <label for="">Selecione a opção:</label>  
+                <br>        
+                <label for="requeijao">Requeijão</label>
+                <input type="radio" id="requeijao" name="borda"> 
+                <br>
+                <label for="chocolate">Chocolate</label>
+                <input type="radio" id="cholocate" name="borda"> 
+                <br>
+                <label for="cheque">Sem borda</label>
+                <input type="radio" id="semborda" name="borda"> 
+                <br><br>
+                <h4>Observações</h4>
+                <label for="obs">Escreva aqui:</label>  
+                <br>
+                <textarea name="obs" id="obs"></textarea>
+                <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend class="mb-3">Pagamento</legend> 
+                <h4>Pagamento:</h4>        
+                <label for="pagamento">Selecione a opção:</label>  
+                <br>        
+                <label for="dinheiro">Dinheiro</label>
+                <input type="radio" id="dinheiro" name="pagamento"> 
+                <br>
+                <label for="cartao">Cartão</label>
+                <input type="radio" id="cartao" name="pagamento"> 
+                <br>
+                <label for="cheque">Cheque</label>
+                <input type="radio" id="cheque" name="pagamento"> 
+                <br><br>
+                <input type="submit" id="sub">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

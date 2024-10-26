@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+#mid {
+    position: relative;
+    left: 5%;
+    width: 500px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    height: 100px; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    max-height: 75px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    background: #D32F2F; 
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #fff;
+    color: #D32F2F;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stats {
+    background: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.stats .stat {
+    display: inline-block;
+    margin: 0 15px;
+    width: 250px;
+}
+
+.stats h3 {
+    font-size: 1.5em;
+    color: #D32F2F;
+    margin-bottom: 10px;
+}
+
+.stats p {
+    color: #666;
+}
+
+.footer {
+    background-color: #D32F2F; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 0; 
+    font-size: 0.9em;
+}

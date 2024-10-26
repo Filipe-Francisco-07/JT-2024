@@ -1,0 +1,18 @@
+4)
+
+a)
+     SELECT * 
+	   FROM TREINA.TBPESSOA
+	  WHERE PESSEXO = 2
+   ORDER BY PESNOME ASC
+      LIMIT 2
+	 OFFSET 2;
+b)
+     SELECT PESCODIGO AS "Código da pessoa",
+	    IMVCODIGO AS "Código do imóvel",
+	    TAXCODIGO AS "Código da taxa",
+	    TAXVALOR AS "Valor da taxa"
+       FROM TREINA.TBTAXA
+      WHERE TAXVALOR > 80.00
+   ORDER BY TAXVALOR DESC
+     OFFSET 1;

@@ -1,0 +1,17 @@
+2)
+
+a) select pescodigo,
+	  ctpnumero
+     from treina.tbpessoacontato;
+		
+b)
+ SELECT imvcodigo,
+ 	imvlargura,
+	imvcomprimento
+   from treina.tbimovel;
+
+c)
+SELECT pescodigo as "Codigo da pessoa",
+       pesnome,
+       pestipo
+   FROM treina.tbpessoa;

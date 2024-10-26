@@ -1,0 +1,7 @@
+3)
+           SELECT *
+             FROM TREINA.TBPESSOA
+   			WHERE PESCODIGO
+ 		  BETWEEN 8 AND 12 
+		      AND PESCODIGO 
+	  NOT BETWEEN 4 AND 7;

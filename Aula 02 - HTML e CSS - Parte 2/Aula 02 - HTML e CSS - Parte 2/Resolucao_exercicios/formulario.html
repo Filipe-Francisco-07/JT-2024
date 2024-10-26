@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Formulário</title>
+
+    <style>
+        .central{
+            text-align: center;
+        }    
+        div{
+            position: relative;
+            width: 500px;
+            left: 35%;
+            padding: 10px;
+            border: solid black 2px;
+            background-color: rgb(222, 222, 227);
+        }
+    </style>
+
+  </head>
+  <body>
+    <h2 class="central">Crie sua conta aqui</h2>
+    <form action="post">
+        <div>
+            <label for="email">Email:</label>
+            <br><br>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="senha">Senha:</label>
+            <br><br>
+            <input type="password" id="senha" name="senha">
+            <br><br>
+            <label for="idade">Insira sua idade:</label>
+            <br><br>
+            <input type="number" id="idade" name="idade">
+            <br><br>
+            <label for="texto">Nos conte subre você:</label>
+            <br>
+            <textarea name="texto" id="texto"></textarea>
+            <br><br>
+            <input type="checkbox" id="termos" name="termos">
+            <label for="termos">Eu concordo com os <a href="" target="_blank">termos de serviço.</a></label>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+  </body>
+</html>

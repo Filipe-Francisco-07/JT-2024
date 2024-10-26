@@ -1,0 +1,16 @@
+1.
+
+select * from treina.tbimovel
+select * from treina.tblogradouro
+select * from treina.tbpessoa
+select * from treina.tbpessoacontato
+select * from treina.tbpessoaimovel
+select * from treina.tbtaxa
+
+2.
+
+a) select pescodigo,
+	   ctpnumero
+  from treina.tbpessoacontato
+		
+b)
