@@ -10,7 +10,22 @@ h1{
 }
 
 .dark{
-    width: 1000px;
+    max-width: 100%; 
+}
+
+.sobre{
+    position: center;
+    text-align: center;
+    border: 2px solid #686868;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #222;
+    max-width: 40%;
+    margin: 0 auto;
+}
+.sobre p{
+    color: white;
+    font-size: 20px;
 }
 
 button.botao {
@@ -23,6 +38,7 @@ button.botao {
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
 }
+
 
 button.botao:hover {
     background: linear-gradient(135deg, #6f1e92, #1b0897); 
@@ -178,7 +194,6 @@ body{
     background-color: rgb(10, 0, 39); 
     margin: 2rem 0; 
 }
-
 
 @media (max-width: 768px) {
     .jogos {
